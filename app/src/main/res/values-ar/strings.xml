@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MMA</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="login2">تسجيل الدخول</string>
+    <string name="regester2">التسجيل</string>
+    <string name="email_required">البريد الالكتروني مطلوب</string>
+    <string name="password_required">كلمة السر مطلوبة</string>
+    <string name="account_created">تم تسجيل حسابك</string>
+    <string name="sign_screen">شاشة الدخول</string>
+</resources>

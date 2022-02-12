@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wel"
+    tools:context="com.example.mma.Ui.RegesterActivity"
+
+    >
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/welcome"
+    android:layout_gravity="center"
+    android:layout_margin="45dp"
+    />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/wel"
+
+
+        >
+
+        <EditText
+            android:background="@drawable/wel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:hint="Write Your Complation..."
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="100dp"
+            android:paddingBottom="200dp"
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+

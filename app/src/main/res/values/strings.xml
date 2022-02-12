@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MMA</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login2">Login2</string>
+    <string name="regester2">Regester2</string>
+    <string name="email_required">Email Required</string>
+    <string name="password_required">Password required</string>
+    <string name="account_created">Account Created</string>
+    <string name="sign_screen">SignScreen</string>
+</resources>

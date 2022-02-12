@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_screen"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="5dp"
+        android:background="@drawable/border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_margin="10dp"
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="20dp"
+        android:textColorHint="#AEFAF8F8"
+        android:textColor="#AEFAF8F8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="5dp"
+        android:background="@drawable/border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:inputType="textWebPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="20dp"
+        android:textColorHint="#AEFAF8F8"
+        android:textColor="#AEFAF8F8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="50"
+            android:background="@drawable/button_shape"
+            android:text="@string/login2"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:onClick="Regester2"
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@null"
+            android:text="@string/regester2"
+            android:layout_margin="15dp"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:weightSum="100"-->
+<!--        android:layout_weight="100"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:layout_weight="25"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="@drawable/rightsign"-->
+<!--            android:text="√"-->
+<!--            android:textSize="50dp"-->
+<!--            app:backgroundTint="@null" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+
+
+
+
+
+
+                <!--    <LinearLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:layout_weight=""-->
+<!--        android:orientation="vertical"-->
+<!--        android:weightSum=""-->
+<!--       >-->
+
+
+
+    </LinearLayout>
+
+
